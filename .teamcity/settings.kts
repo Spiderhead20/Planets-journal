@@ -41,15 +41,15 @@ object Build : BuildType({
 
     steps {
         powerShell {
-            name = "Print message"
+            name = "Hello World"
             scriptMode = file {
-                path = "Scripts/GoodbyeWorld.ps1"
+                path = "Scripts/HelloWorld.ps1"
             }
         }
         powerShell {
-            name = "Print message test"
+            name = "Goodbye World"
             scriptMode = file {
-                path = "Scripts/HelloWorld.ps1"
+                path = "Scripts/GoodbyeWorld.ps1"
             }
         }
     }
