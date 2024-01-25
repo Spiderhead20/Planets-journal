@@ -47,6 +47,12 @@ object Build : BuildType({
             }
         }
         powerShell {
+            name = "Hello"
+            scriptMode = file {
+                path = "Scripts/Hello.ps1"
+            }
+        }
+        powerShell {
             name = "Goodbye World"
             scriptMode = file {
                 path = "Scripts/GoodbyeWorld.ps1"
