@@ -43,7 +43,7 @@ object Build : BuildType({
         powerShell {
             name = "Print message"
             scriptMode = file {
-                path = "nope.ps1"
+                path = "Scripts/HelloWorld.ps1"
             }
         }
     }
