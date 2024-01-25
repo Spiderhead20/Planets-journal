@@ -46,6 +46,12 @@ object Build : BuildType({
                 path = "Scripts/GoodbyeWorld.ps1"
             }
         }
+        powerShell {
+            name = "Print message 2"
+            scriptMode = file {
+                path = "Scripts/HelloWorld.ps1"
+            }
+        }
     }
 
     triggers {
